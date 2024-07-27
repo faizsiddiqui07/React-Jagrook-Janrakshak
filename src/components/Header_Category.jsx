@@ -83,7 +83,7 @@ const Header_Category = () => {
       {/* Mobile Menu */}
       {isCategoryMenuVisible && (
         <div className="lg:hidden flex flex-wrap py-2 px-8 bg-gray-100">
-          <NavLink to="/" isActive={location.pathname === "/"}>Home</NavLink>
+          <NavLink to="/" isActive={location.pathname === "/"}>Homes</NavLink>
           {categories.map((category, index) => (
             <NavLink
               key={index}
